@@ -1,10 +1,45 @@
+@font-face {
+  font-family: 'Open Sans', arial;
+  src: url(fonts/open-sans.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 .figure {
     margin-left: 0;
     margin-right: 0;
   }
 
-.caption {
+.left {
     text-align: left;
     margin-left: 3px;
   }  
 
+.caption { 
+    caption-side: bottom;
+    text-align: left;
+  }
+
+body {
+  width: 70%;
+  margin: auto;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.border {
+  border: 3px double black;
+}
